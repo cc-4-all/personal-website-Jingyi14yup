@@ -1,58 +1,59 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  scroll-behavior: smooth;
+
+h1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans";
 }
 
-nav {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  background: lightgray;
-  padding: 25px;
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 25px;
+    background: lightblue;
 }
 
-main {
-  padding-top: 55px;
-  width: 1000px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+ul{
+    display: flex;
+    list-style: none;
+    width: 25%
+    justify-content: space-between;
 }
 
-main h2 {
-  margin-top: 10px;
+main ,footer{
+    width:  1200px;
+    margin: auto;
+    text-align: center;
+    background:  lavenderblush
+    ;
 }
 
-footer {
-  background: lightgray;
-  padding: 25px;
-  text-align: center;
-  width: 100%;
-  bottom: 0;
-  margin-top: 25px;
+h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.profile-picture {
-  border-radius: 100%;
-
-  transition: all ease-in-out 300ms;
+.profile-item{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.profile-item {
-  margin-top: 50px;
-  margin-bottom: 50px;
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: royalblue; 
 }
 
-.initials {
-  color: blueviolet;
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: lightskyblue;
 }
 
-img {
-  margin-top: 10px;
-}
+ h4{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+ }
+
